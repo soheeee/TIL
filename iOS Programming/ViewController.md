@@ -3,3 +3,5 @@
 1)앱을 실행하는 중에 한 번만 설정해야 하는 경우 - **viewDidLoad()** 오버라이드
 
 2)화면에 뷰 컨트롤러가 나타날 때마다 설정이 필요한 경우 - **viewWillAppear(_:)** 오버라이드
+
+Reference https://developer.apple.com/documentation/uikit/uiviewcontroller
