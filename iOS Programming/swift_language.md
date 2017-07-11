@@ -1,3 +1,5 @@
+## Switch
+
 c언어의 switch와 다른점이 있다.
 
 바로 case들이 다른 case로 빠지지 않는다는 점. 그래서 break를 써줄 필요가 없다.
