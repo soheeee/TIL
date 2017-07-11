@@ -1,6 +1,10 @@
 - 프레임과 정렬 사각형의 차이
   - 프레임: 뷰 전체
   - 정렬 사각형: 정렬 목적으로 사용하길 원하는 내용만 감싼 사각형
-- Nearest Neighbor 개념
+- Nearest neighbor 개념
   - 특정 방향에 가장 가까운 형제 뷰
   - 없다면? 자신의 컨테이너(상위 뷰)
+- Intrinsic content size
+  - 뷰가 원하는 원래 크기로, 뷰의 종류 - UILabel, UIImageView등 - 에 따라 다르다
+  - UILabel의 intrinsic content size는 텍스트의 크기, UIImageView는 이미지 자체의 크기
+  - 따라서 오토레이아웃을 설정할 때 label은 width, height를 설정할 필요가 없고 image는 해주어야 함(실제 이미지가 없을 경우)
