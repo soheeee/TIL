@@ -1,0 +1,3 @@
+- Swift code convention
+- 사용하지 않는 메소드 삭제
+- Observer 할당-해제
