@@ -14,3 +14,10 @@
 
 ## Observer
 이전에는 selector를 사용하는 문법을 자주 썼으나 요즘은 그냥 observer내에 block을 쓴다
+
+## Layer
+모든 UIView는 CALayer 객체인 layer 프로퍼티를 가지고 있다.
+
+렌더링, 레이아웃, 애니메이션 등을 관리한다.
+
+따라서 UIView의 appearance를 customize하고 싶을 땐 layer를 이용한다.
