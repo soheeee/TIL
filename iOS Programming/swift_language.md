@@ -32,3 +32,17 @@ Reference https://stackoverflow.com/questions/30093688/how-to-create-range-in-sw
 
 `for (i, str) in strings.enumerate(){...}`
  - 이 경우 i는 index값(0,1,2,...) str는 index값과 대응하는 배열 내의 element
+
+## Initializer 
+- 지정 이니셜라이저
+
+`init(parameters) {
+   statements
+}`
+- 컨비니언스 이니셜라이저
+
+내부에서 지정 이니셜라이저를 호출해주어야 함
+
+`convenience init(parameters {
+   statements
+}`
