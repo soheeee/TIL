@@ -11,3 +11,10 @@ UITableViewDataSource - UITableView가 표시할 **행의 개수, 각 행에 표
 UITableViewDelegate - UITableView와 관련된 **이벤트** 를 다른 객체에 알릴 델리게이트 프로토콜
 
 UITableViewController는 뷰 컨트롤러, 데이터 소스, 델리게이트의 세가지 역할을 모두 할 수 있다.
+
+## 의존 관계 역전 원칙
+1. 고수준 객체는 저수준 객체에 의존해서는 안된다. 둘 다 추상에 의존해야 한다.
+2. 추상은 세부적인 것에 의존해서는 안 된다. 세부적인 것이 추상에 의존해야 한다.
+
+Reference https://trazy.gitbooks.io/oop/content/oop-dip.html
+
