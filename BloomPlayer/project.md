@@ -1,3 +1,11 @@
+## Swiftlint
+- A tool to enforce Swift style and conventions
+- https://github.com/realm/SwiftLint
+
+## Carthage
+- A simple, decentralized dependency manager for Cocoa
+- https://github.com/Carthage/Carthage
+
 ## Git Flow란 무엇인가
 - 프로젝트 버전관리 방법론 중 하나
 - feature > develop > release > hotfix > master 브랜치가 존재하며, 머지 순서는 앞에서 뒤로 진행된다
@@ -6,3 +14,4 @@
 ![alt text](http://nvie.com/img/git-model@2x.png "")
 
 Reference https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/
+
