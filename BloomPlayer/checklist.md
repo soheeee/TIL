@@ -1,4 +1,4 @@
-- Swift code convention
+- Swift code convention (Swiftlint 사용)
 - 사용하지 않는 메소드 삭제
 - Observer 할당-해제
 - 작은 기능별로 함수 나누기(함수>주석)
