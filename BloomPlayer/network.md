@@ -3,6 +3,9 @@ URI에서 사용되는 예약문자/비예약문자를 구분하기 위한 문�
 
 퍼센트 인코딩이라고도 한다.
 
+`let encodedUrlStr = "http://www.naver.com".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)`
+                
+
 [Reference](https://ko.wikipedia.org/wiki/%ED%8D%BC%EC%84%BC%ED%8A%B8_%EC%9D%B8%EC%BD%94%EB%94%A9)
 
 ## HTTP
