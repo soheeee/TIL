@@ -21,3 +21,16 @@
 렌더링, 레이아웃, 애니메이션 등을 관리한다.
 
 따라서 UIView의 appearance를 customize하고 싶을 땐 layer를 이용한다.
+
+## GCD
+Grand Central Dispatch
+개발자가 쓰레드 풀에 접근할 수 있도록 하는 기술
+- UIKit내에 정의된 작업은 메인에서 처리해야함
+- 네트워킹/비동기 작업은 메인 이외의 쓰레드로 옮겨 진행하는 것이 좋다
+- 참고하면 좋은 책: [Pro IOS Apps Performance Optimization](http://book.naver.com/bookdb/book_detail.nhn?bid=6958808)
+
+## URL Encoding
+URI에서 사용되는 예약문자/비예약문자를 구분하기 위한 문자 인코딩 방법
+퍼센트 인코딩이라고도 한다.
+https://ko.wikipedia.org/wiki/%ED%8D%BC%EC%84%BC%ED%8A%B8_%EC%9D%B8%EC%BD%94%EB%94%A9
+
