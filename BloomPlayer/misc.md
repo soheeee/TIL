@@ -32,4 +32,5 @@ Grand Central Dispatch
 
 ## Adaptive UI
 스토리보드에서 +버튼을 누르면 'Introduce Variation Based On...' 창이 뜬다.
+
 Width/Height가 Compact일 때 Regular일 때에 따라서 해당 항목을 정의할 수 있다.
