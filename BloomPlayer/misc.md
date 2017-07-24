@@ -30,3 +30,6 @@ Grand Central Dispatch
 - 네트워킹/비동기 작업은 메인 이외의 쓰레드로 옮겨 진행하는 것이 좋다
 - 참고하면 좋은 책: [Pro IOS Apps Performance Optimization](http://book.naver.com/bookdb/book_detail.nhn?bid=6958808)
 
+## Adaptive UI
+스토리보드에서 +버튼을 누르면 'Introduce Variation Based On...' 창이 뜬다.
+Width/Height가 Compact일 때 Regular일 때에 따라서 해당 항목을 정의할 수 있다.
